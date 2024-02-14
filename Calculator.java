@@ -22,27 +22,28 @@ public class Calculator{
         switch(cmd.toLowerCase()) {
             case "subtraction":
                 t = x - y;
-                System.out.println("Result:" + t);
+                    System.out.println("Result:" + t);
                     break;
             case "addition":
                 t = x + y;
-                System.out.println("Result:" + t);
+                    System.out.println("Result:" + t);
                     break;
             case "multiplication":
                 t = x * y;
 
-                System.out.println("Result:" + t);
+                    System.out.println("Result:" + t);
                     break;
             case "divison":
             if (y==0) {
-                System.out.println("Error: Cannot Divide by Zero");
+                    System.out.println("Error: Cannot Divide by Zero");
             }else {
                 t = x/y; 
-                System.out.println("Resuly: " + t);
+                    System.out.println("Resuly: " + t);
             }    
                     break;
             default:
-                System.out.println(cmd + " this was not an option");
+                    System.out.println(cmd + " this was not an option");
+                    
                     break;
 
         }
