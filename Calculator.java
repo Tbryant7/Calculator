@@ -11,7 +11,7 @@ public class Calculator{
 
     public static void main(String[] args) {
         Scanner scan = new Scanner( System.in);
-            System.out.println("Enter Two whole numbers.");
+            System.out.println("Enter Two numbers.");
                 double x = scan.nextDouble();
                 double y = scan.nextDouble();
                     scan.nextLine();
