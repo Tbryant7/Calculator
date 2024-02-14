@@ -16,7 +16,7 @@ public class Calculator{
                 double y = scan.nextDouble();
                     scan.nextLine();
 
-        System.out.println("Would you like to do Addition or Subtraction");
+        System.out.println("Would you like to do Addition, Substraction, Multiplication, or Divison");
             String cmd = scan.nextLine();
                 double t;
         switch(cmd.toLowerCase()) {
@@ -28,6 +28,15 @@ public class Calculator{
                 t = x + y;
                 System.out.println("Result:" + t);
                     break;
+            case "multiplication":
+                t = x * y;
+                System.out.println("Result:" + t);
+                    break;
+            case "divison":
+                t = x/y; 
+                System.out.println("Resuly: " + t);
+                    break;
+
         }
     }
 }
